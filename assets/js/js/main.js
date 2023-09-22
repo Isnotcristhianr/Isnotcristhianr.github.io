@@ -1,8 +1,8 @@
-/*Desarrollado por IsnotCristhianr® 2002*/
+/*Desarrollado por IsnotCristhianr® 2022*/
 /*=============== COPYED ===============*/
 function copied(){
     document.execCommand("www.isnotcristhianr.com");
-    swal("Copiado al portapapeles, gracias por compartirlo!", "www.isnotcristhianr.com", "success", {
+    swal("Copiado al portapapeles, gracias por compartirlo!", "www.isnotcristhianr.me", "success", {
         button: false,
     });
 }
@@ -50,15 +50,6 @@ tabs.forEach((tab) => {
   });
 });
 
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
-let mixerPortfolio = mixitup(".work__container", {
-  selectors: {
-    target: ".work__card",
-  },
-  animation: {
-    duration: 300,
-  },
-});
 
 /*===== Link Active Work =====*/
 const linkWork = document.querySelectorAll(".work__item");
@@ -118,7 +109,7 @@ modalCloses.forEach((modalClose) => {
 });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-let swiper = new Swiper(".testimonials__container", {
+/* let swiper = new Swiper(".testimonials__container", {
   spaceBetween: 24,
   loop: true,
   grabCursor: true,
@@ -136,7 +127,7 @@ let swiper = new Swiper(".testimonials__container", {
       spaceBetween: 48,
     },
   },
-});
+}); */
 
 /*=============== INPUT ANIMATION ===============*/
 const inputs = document.querySelectorAll(".input");
@@ -178,11 +169,11 @@ function navHighlighter() {
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
         .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.add("active-link");
+       // .classList.add("active-link");
     } else {
       document
         .querySelector(".nav__menu a[href*=" + sectionId + "]")
-        .classList.remove("active-link");
+      //  .classList.remove("active-link");
     }
   });
 }
@@ -197,7 +188,7 @@ function scrollUp() {
 window.addEventListener("scroll", scrollUp);
 
 /*=============== TYPED ===============*/
-const typed = new Typed(".typed", {
+/* const typed = new Typed(".typed", {
   strings: [
     '<i class="type">Desarrollador</i>',
     '<i class="type">Programador</i>',
@@ -218,7 +209,7 @@ const typed = new Typed(".typed", {
   cursorChar: "|", // Caracter para el cursor
   contentType: "html", // 'html' o 'null' para texto sin formato
 });
-
+ */
 /*=============== ANIMATION NFTS ===============*/
 
 /*Desarrollado por IsnotCristhianr® 2002*/

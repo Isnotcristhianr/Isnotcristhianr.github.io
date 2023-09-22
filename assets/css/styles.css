@@ -8,7 +8,7 @@
     --hue-color: 242;
 
     /* HSL Color Mode */
-    --skin-color: hsl(230, 52%, 31%);
+    --skin-color: hsl(230, 56%, 72%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 85%);
     --body-color: hsl(var(--hue-color), 19%, 5%);
