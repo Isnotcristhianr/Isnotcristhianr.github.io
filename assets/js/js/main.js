@@ -1,7 +1,7 @@
 /*Desarrollado por IsnotCristhianr® 2022*/
 /*=============== COPYED ===============*/
 function copied(){
-    document.execCommand("www.isnotcristhianr.com");
+    document.execCommand("www.isnotcristhianr.me");
     swal("Copiado al portapapeles, gracias por compartirlo!", "www.isnotcristhianr.me", "success", {
         button: false,
     });
@@ -188,7 +188,7 @@ function scrollUp() {
 window.addEventListener("scroll", scrollUp);
 
 /*=============== TYPED ===============*/
-/* const typed = new Typed(".typed", {
+ const typed = new Typed(".typed", {
   strings: [
     '<i class="type">Desarrollador</i>',
     '<i class="type">Programador</i>',
@@ -209,7 +209,9 @@ window.addEventListener("scroll", scrollUp);
   cursorChar: "|", // Caracter para el cursor
   contentType: "html", // 'html' o 'null' para texto sin formato
 });
- */
-/*=============== ANIMATION NFTS ===============*/
+ 
+/*============== ANIMATION NFTS ===============*/
 
 /*Desarrollado por IsnotCristhianr® 2002*/
+
+
